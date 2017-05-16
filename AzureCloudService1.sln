@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "AzureCloudService1", "AzureCloudService1\AzureCloudService1.ccproj", "{9AB96887-EB20-46DA-A59A-14FAFC728E88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebRole1", "WebRole1\WebRole1.csproj", "{71A73594-73CE-4FD3-A030-24695EBAF75C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebRole1.Tests", "WebRole1.Tests\WebRole1.Tests.csproj", "{F000F973-3670-45AC-B3FA-9CD96D031E14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFServiceWebRole1", "WCFServiceWebRole1\WCFServiceWebRole1.csproj", "{9CE6B43C-6441-4E60-ABE8-82D7B0AAA1C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkerRole1", "WorkerRole1\WorkerRole1.csproj", "{5868048E-FBB6-4710-95B3-5634E90A217E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkerRoleWithSBQueue1", "WorkerRoleWithSBQueue1\WorkerRoleWithSBQueue1.csproj", "{B4370ADA-B120-492B-98DD-23364B41F020}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkerRoleWithSBQueue2", "WorkerRoleWithSBQueue2\WorkerRoleWithSBQueue2.csproj", "{5A3A7AF2-8552-4957-9E9A-D64696FC251B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9AB96887-EB20-46DA-A59A-14FAFC728E88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AB96887-EB20-46DA-A59A-14FAFC728E88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AB96887-EB20-46DA-A59A-14FAFC728E88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AB96887-EB20-46DA-A59A-14FAFC728E88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71A73594-73CE-4FD3-A030-24695EBAF75C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71A73594-73CE-4FD3-A030-24695EBAF75C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71A73594-73CE-4FD3-A030-24695EBAF75C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71A73594-73CE-4FD3-A030-24695EBAF75C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F000F973-3670-45AC-B3FA-9CD96D031E14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F000F973-3670-45AC-B3FA-9CD96D031E14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F000F973-3670-45AC-B3FA-9CD96D031E14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F000F973-3670-45AC-B3FA-9CD96D031E14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CE6B43C-6441-4E60-ABE8-82D7B0AAA1C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CE6B43C-6441-4E60-ABE8-82D7B0AAA1C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CE6B43C-6441-4E60-ABE8-82D7B0AAA1C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CE6B43C-6441-4E60-ABE8-82D7B0AAA1C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5868048E-FBB6-4710-95B3-5634E90A217E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5868048E-FBB6-4710-95B3-5634E90A217E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5868048E-FBB6-4710-95B3-5634E90A217E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5868048E-FBB6-4710-95B3-5634E90A217E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4370ADA-B120-492B-98DD-23364B41F020}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4370ADA-B120-492B-98DD-23364B41F020}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4370ADA-B120-492B-98DD-23364B41F020}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4370ADA-B120-492B-98DD-23364B41F020}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A3A7AF2-8552-4957-9E9A-D64696FC251B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A3A7AF2-8552-4957-9E9A-D64696FC251B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A3A7AF2-8552-4957-9E9A-D64696FC251B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A3A7AF2-8552-4957-9E9A-D64696FC251B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
